@@ -1,0 +1,6 @@
+framework module YohooRouter {
+  umbrella header "YohooRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

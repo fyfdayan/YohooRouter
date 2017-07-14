@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EC3A54834567043336FFA36DA507B404DB978938",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "51623250BFE07E45EB0DB80F151940D03D64F4FC" : 9223372036854775807,
+    "EC3A54834567043336FFA36DA507B404DB978938" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1D8AA465-C615-4892-A23E-2B01174B8629",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "51623250BFE07E45EB0DB80F151940D03D64F4FC" : "YohooCoreLib\/",
+    "EC3A54834567043336FFA36DA507B404DB978938" : "YohooRouter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YohooRouter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/YohooRouter.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.122:5000\/gates8\/iOS\/YohooCoreLib",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51623250BFE07E45EB0DB80F151940D03D64F4FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.122:5000\/gates8\/iOS\/YohooRouter",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC3A54834567043336FFA36DA507B404DB978938"
+    }
+  ]
+}

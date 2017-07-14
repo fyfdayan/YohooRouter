@@ -1,0 +1,23 @@
+{
+  "name": "YohooRouter",
+  "version": "0.1.0",
+  "summary": "A short description of YohooRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/傅雁锋/YohooRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "傅雁锋": "bird@corplus.net"
+  },
+  "source": {
+    "git": "https://github.com/傅雁锋/YohooRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YohooRouter/Classes/**",
+  "public_header_files": "YohooRouter/Classes/**/*.h"
+}

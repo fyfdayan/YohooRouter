@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'YohooRouter_Example' do
+  pod 'YohooRouter', :path => '../'
+
+  target 'YohooRouter_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+#  pod 'YohooCoreLib', :path => '../../YohooCoreLib/YohooCoreLib.podspec'
+  end
+end

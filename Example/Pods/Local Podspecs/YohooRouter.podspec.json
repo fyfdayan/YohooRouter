@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of YohooRouter.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/傅雁锋/YohooRouter",
+  "homepage": "https://github.com/fyfdayan/YohooRouter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "傅雁锋": "bird@corplus.net"
+    "fyfdayan": "bird@corplus.net"
   },
   "source": {
-    "git": "https://github.com/傅雁锋/YohooRouter.git",
+    "git": "https://code.csdn.net/fyfdayan/yohoorouter.git",
     "tag": "0.1.0"
   },
   "platforms": {

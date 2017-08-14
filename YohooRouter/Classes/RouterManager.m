@@ -77,7 +77,7 @@ NSString* const kOpenUrlModuleName = @"OpenUrlModule";
 
 - (void)addEvent:(YohooEvent *)event {
     if ([self isEmpty:event.eventName] || [self isEmpty:event.identifier]) {
-        @throw @"事件名称或标识为空";
+        @throw [[NSException alloc] initWithName:@"addEvent" reason:@"事件名称或标识为空" userInfo:nil];
     }
     
     NSMutableArray *_events = [events valueForKey:event.eventName];
@@ -88,11 +88,14 @@ NSString* const kOpenUrlModuleName = @"OpenUrlModule";
     
     if ([_events containsObject:event]) {
 //        @throw @"Already add this event";
-        @throw @"事件已经存在";
+//        @throw @"事件已经存在";
+        NSLog(@"事件已经存在");
+        return;
     }
     
     if (event.target == nil || event.selector == nil) {
-        @throw @"事件主体或响应事件的方法为空";
+//        @throw @"事件主体或响应事件的方法为空";
+        @throw [[NSException alloc] initWithName:@"addEvent" reason:@"事件主体或响应事件的方法为空" userInfo:nil];
     }
     
     [_events addObject:event];

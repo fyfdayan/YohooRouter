@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YohooRouter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'YohooRouter.'
 
   s.description      = 'YohooRouter is router for ios'
